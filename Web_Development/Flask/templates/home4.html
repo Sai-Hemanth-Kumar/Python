@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> template + static files </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style4.css') }}">
+        <script src="{{ url_for('static', filename='script4.js') }}"></script>
+    </head>
+    <body>
+        <h1> Home Page </h1>
+        <p> This is Home Page! </p>
+        <button onclick="showMessage()"> Click Me </button>
+    </body>
+</html>
